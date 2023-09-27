@@ -6,19 +6,18 @@ for ( let i =1; i<=10; i++){
     }
 }
 // even odd
-for ( let i =1; i<=10; i++){
+ for ( let i =1; i<=10; i++){
     for(let t =1; t<=10; t++){
         if(t %2==0){
             
-            console.log( i," * ", t , " = ", t*i ,"<br/>");
+            console.log( i," * ", t , " = ", t*i );
         }
         else{
             console.log('The number is odd');
         }
         
+        
     }
 }
 // even odd
-
-
 
