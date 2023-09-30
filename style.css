@@ -28,3 +28,58 @@ body{
     margin: 15px;
     display: none;
 }
+#nav-box>i{
+ 
+ font-size:22px;
+ cursor: pointer;
+}
+
+#main-box{
+    width: 20rem;
+    height: 30rem;
+   position: relative;
+   border: 3px solid black;
+}
+#main-box::-webkit-scrollbar{
+display: none;
+}
+#post-box>i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+ 
+.full{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+
+    border-radius: 12px;
+    display: none;
+    z-index: 11111;
+}
+#scoll-bar{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.171);
+    background: transparent ;
+    backdrop-filter: blur(5px);
+}
+
+#scoll-bar::-webkit-scrollbar{
+display: none;
+}
+img{
+   height: 5rem;
+   width: 5rem;
+   
+}
+
+#bg-img{
+   
+    overflow: hidden;
+}
+#bg-img:hover{
+    
+    border: 3px solid red;
+    box-shadow: 0 0 15px black;
+}
