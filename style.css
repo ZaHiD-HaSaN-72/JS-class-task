@@ -28,6 +28,23 @@ body{
     margin: 15px;
     display: none;
 }
+
+
+#love-box, #love-bx{
+    position: relative;
+}
+#love-icon, #love-icn{
+    color: #fff;
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+    transition:transform ease 0.4s;
+
+}
+
 #nav-box>i{
  
  font-size:22px;

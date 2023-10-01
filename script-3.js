@@ -26,6 +26,60 @@ document.querySelector(".full").style.backgroundImage = `url(${arr[dets.target.i
 
 setTimeout(function(){
     document.querySelector(".full").style.display="none";
-},3000)
+},2500)
 });
 
+
+
+
+
+let loveIcon = document.getElementById('love-icon');
+let loveBox = document.getElementById('love-box');
+
+loveBox.addEventListener('dblclick', function(){
+    loveIcon.style.transform='translate(-50%, -50%) scale(1)';
+    loveIcon.style.opacity = '0.8';
+
+    setTimeout(function(){
+        document.getElementById('love-icon').style.opacity = '0';
+    },1000);
+    setTimeout(function(){
+        document.getElementById('love-icon').style.transform='translate(-50%, -50%) scale(0)';
+    },2000);
+
+    let loveBld1 = document.getElementById('love-bold1');
+    loveBld1.classList.toggle('fa-solid');
+       
+});
+
+let loveBld1 = document.getElementById('love-bold1');
+loveBld1.addEventListener('click', function(){
+    loveBld1.classList.toggle('fa-solid');
+})
+
+
+
+
+let loveIcn = document.getElementById('love-icn');
+let loveBx = document.getElementById('love-bx');
+
+loveBx.addEventListener('dblclick', function(){
+    loveIcn.style.transform='translate(-50%, -50%) scale(1)';
+    loveIcn.style.opacity = '0.8';
+
+    setTimeout(function(){
+        document.getElementById('love-icn').style.opacity = '0';
+    },1000);
+    setTimeout(function(){
+        document.getElementById('love-icn').style.transform='translate(-50%, -50%) scale(0)';
+    },2000);
+
+    let loveBld = document.getElementById('love-bold');
+    loveBld.classList.toggle('fa-solid');
+
+});
+
+let loveBld = document.getElementById('love-bold');
+loveBld.addEventListener('click', function(){
+    loveBld.classList.toggle('fa-solid');
+})
